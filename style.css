@@ -1,0 +1,205 @@
+/* CSS For All*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif; 
+ }
+
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive
+{
+    width: 100%;
+}
+
+.img-curve
+{
+    border-radius: 15px;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.text-white
+{
+    color: white;
+}
+
+.clearfix
+{
+    clear: both;
+    float: none;
+}
+
+a
+{
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: green;
+}
+
+.btn
+{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary
+{
+    background-color: orangered;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover
+{
+    background-color: green;
+    color: black;
+}
+
+h2
+{
+    color: rgba(0, 0, 0, 0.795);
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+h3
+{
+    font-size: 1.5rem;
+}
+
+.float-container
+{
+    position: relative;
+    
+}
+
+.float-text
+{
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+}
+
+/* CSS For Navbar Section*/
+.logo
+{
+    
+    width: 20%;
+    float: left;
+}
+
+.menu
+{
+    line-height: 190px;
+}
+
+.menu ul
+{
+    list-style-type: none;
+}
+
+.menu ul li
+{
+    font-size: large;
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* CSS For Food Search Section*/
+
+.food-search
+{
+background-image: url(../images/background.avif);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+padding: 7% 0 ;
+}
+
+.food-search input[type="search"]
+{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* CSS For Categories*/
+
+.categories
+{
+    padding: 4% 0;
+}
+
+.box-3
+{
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+
+/*  CSS For Food Menu*/
+
+.food-menu
+{
+    background-color: #ececec;
+    padding: 4%;
+}
+
+.food-menu-box
+{
+    width: 40%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+
+}
+.food-menu-img
+{
+    width: 30%;
+    float: left;
+}
+
+.food-menu-desc
+{
+    width: 70;
+    float: left;
+    margin: 8%;
+}
+
+.food-price
+{
+    font-size: 1.2rem;
+    margin: 5% 0;
+}
+
+.food-detail
+{
+    font-size: 1rem;
+    color: grey;
+}

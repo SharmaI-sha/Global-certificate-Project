@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food</title>
+
+    <!--Link  our Css file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar Section Start Here-->
+    <section class="navbar">
+        <div class="container">
+          <div class="logo">
+            <img src="images/logo.png" alt="Restaurant Logo" width="100%" class="img-responsive">
+          </div>
+
+          <div class="menu text-right">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                
+                <li>
+                    <a href="./login.html">Login</a>
+                </li>
+                
+                <li>
+                    <a href="./order.html">Order</a>
+                </li>
+                
+                <li>
+                    <a href="./Contact.html">Contact</a>
+                </li>
+            </ul>
+          </div>
+
+          <div class="clearfix"></div>
+         </div>
+    </section>
+    <!--Navbar Section Ends Here-->
+
+    <!--Food Search Section Start Here-->
+        
+    <!--Food Search Section Ends Here-->
+
+    <!--Categories Section Start Here-->
+   
+    <!--Categories Section Ends Here-->
+
+    <!--Food Menu Section Start Here-->
+   
+    <!--Food Menu Section Ends Here-->
+
+    <!--Order Details Section Start Here-->
+    <section class="order-details">
+        <div class="container">
+            <h2 class="text-center">Place Your Order</h2>
+
+            <form action="#" method="post">
+                <!-- Address Input -->
+                <div class="form-group">
+                    <label for="address">Delivery Address</label><br>
+                    <input type="text" id="address" name="address" placeholder="Enter your delivery address" class="form-control" required>
+                </div>
+
+                <!-- Live Location (Optional, can be linked to Google Maps API or other location services) -->
+                <div class="form-group">
+                    <label for="location">Live Location</label><br>
+                    <input type="text" id="location" name="location" placeholder="Share your live location (optional)" class="form-control">
+                </div>
+
+                <!-- Payment Methods Section -->
+                <h3>Choose Payment Method</h3>
+                <div class="form-group">
+                    <label><input type="radio" name="payment_method" value="credit_card"> Credit Card</label><br><br>
+                    <label><input type="radio" name="payment_method" value="debit_card"> Debit Card</label><br><br>
+                    <label><input type="radio" name="payment_method" value="gpay"> Google Pay (GPay)</label><br><br>
+                    <label><input type="radio" name="payment_method" value="upi"> UPI</label><br><br>
+                    <label><input type="radio" name="payment_method" value="cash_on_delivery"> Cash on Delivery</label>
+                </div>
+
+                <!-- Submit Order Button -->
+                <!-- <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Place Order</button>
+                </div> -->
+            </form>
+        </div>
+    </section>
+    <!--Order Details Section Ends Here-->
+
+    <!--Footer Section Start Here-->
+    <section class="footer">
+        <div class="container text-center">
+            <p>&copy; 2025 Fast Food | All Rights Reserved</p>
+        </div>
+    </section>
+   <!--Footer Section Ends Here-->
+</body>
+</html>
